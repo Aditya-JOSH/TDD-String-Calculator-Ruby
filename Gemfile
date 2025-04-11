@@ -1,6 +1,8 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "rspec"       # testing
-gem "simplecov", require: false  # test coverage
-gem "rubocop", require: false    # linting
-gem "byebug"      # debugging
+source 'https://rubygems.org'
+
+gem 'byebug' # debugging
+gem 'rspec' # testing
+gem 'rubocop', require: false # linting
+gem 'simplecov', require: false # test coverage
